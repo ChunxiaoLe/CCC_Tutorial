@@ -18,7 +18,7 @@
 ## 颜色恒常性背景
 + 定义：相机拍摄的原始RAW图像会受到外界非中性光影响，导致拍摄图像发生色偏，颜色恒常性就是消除色偏现象保持物体本来颜色的过程。
 + 步骤：光照估计：估计出物体表面的光照颜色；颜色矫正，去除光照色偏影响。
-+ 示意图如下所示：<img src="https://github.com/ChunxiaoLe/CCC/blob/main/%E9%A2%9C%E8%89%B2%E6%81%92%E5%B8%B8%E6%80%A7%E8%83%8C%E6%99%AF.png" width = "450" height = "300" alt="" align=center />
++ 示意图如下所示：<img src="https://github.com/ChunxiaoLe/CCC/blob/main/%E9%A2%9C%E8%89%B2%E6%81%92%E5%B8%B8%E6%80%A7%E8%83%8C%E6%99%AF.png" width = "500" height = "300" alt="" align=center />
 
 ## 入门文章
 组内已投中顶会顶刊：
