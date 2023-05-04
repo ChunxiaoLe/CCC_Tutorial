@@ -9,9 +9,11 @@
 
 | 方向       | 描述     | 可能技术 | 目前人员     |
 | :-----------: | :--------: | :--------: | :--------: |
-| 白平衡    |   sRGB图像白平衡技术    |         |      李春晓（博四，带队）    |
-| 颜色恒常性    |    RAW图像白平衡技术   |   迁移学习、对抗学习、多域学习    |   朱家贤(研一) 张志峰(研三) 唐宇翔(毕业)    |
-| HDR    |    高动态范围图像重建   |   待补充   |   商帅康(研三)    |
+| 白平衡    |   sRGB图像白平衡技术    |   元学习、对比学习      |      李春晓（博四，带队）    |
+| 颜色恒常性    |    RAW图像白平衡技术   |   迁移学习、对抗学习、多域学习    |   朱家贤(研一) 、张志峰(研三)、 唐宇翔(毕业)    |
+| HDR    |    高动态范围图像重建   |   待补充   |   商帅康(研二)    |
+| 图像分割    |    夜间图像分割   |   待补充   |   董成豪(研二)    |
+| 图像    |    待补充   |   待补充   |   刘飞(研二)    |
 
 ## 入门文章
 组内已投中顶会顶刊：
@@ -19,19 +21,20 @@
 + Zhifeng Zhang, Xuejing Kang, Anlong Ming*, Domain Adversarial Learning for Color Constancy,IJCAI 2022，人工智能领域顶会.
 + Chunxiao Li, Xuejing Kang, Zhifeng Zhang, Anlong Ming*, SWBNet: A Stable White Balance Network for sRGB images, AAAI 2023, 人工智能领域顶会.
 + Chunxiao Li, Xuejing Kang, Anlong Ming*, WBFlow: Few-shot White Balance for sRGB Images via Reversible Neural Flows，IJCAI 2023, 人工智能领域顶会.
++ Chenghao Dong, Xuejing Kang, Anlong Ming, ICDA: Illumination-Coupled Domain Adaptation Framework for Unsupervised Nighttime Semantic Segmentation,IJCAI 2023, 人工智能领域顶会.
 + 在投3篇
 
 其它资料：
-+ "*RAW图像到sRGB图像的全过程.*" 博客 [[link]]([https://zhuanlan.zhihu.com/p/37307679](https://ridiqulous.com/process-raw-data-using-matlab-and-dcraw/comment-page-3/#comments))
-+ "*RAW图像处理代码demo.*" CMU公开课 [[link]]([https://zhuanlan.zhihu.com/p/91516029](https://nbviewer.jupyter.org/github/yourwanghao/CMUComputationalPhotography/blob/master/class2/notebook2.ipynb))
-+ Hu, Yuanming and Wang, Baoyuan and Lin, Stephen: "*Fc4: Fully convolutional color constancy with confidence-weighted pooling*" CVPR (2017) [[pdf]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Hu_FC4_Fully_Convolutional_CVPR_2017_paper.pdf) [[code]](https://github.com/yuanming-hu/fc4)
-+ Lo Y C, Chang C C, Chiu H C, et al. : "*Clcc: Contrastive learning for color constancy*" CVPR (2021) [[pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Lo_CLCC_Contrastive_Learning_for_Color_Constancy_CVPR_2021_paper.pdf) [[code]](https://openaccess.thecvf.com/content/CVPR2021/papers/Lo_CLCC_Contrastive_Learning_for_Color_Constancy_CVPR_2021_paper.pdf)
++ *博客：RAW图像到sRGB图像的全过程*  [[link]](https://ridiqulous.com/process-raw-data-using-matlab-and-dcraw/comment-page-3/#comments)
++ *公开课：RAW图像处理全流程代码* [[link]](https://nbviewer.jupyter.org/github/yourwanghao/CMUComputationalPhotography/blob/master/class2/notebook2.ipynb)
++ 经典论文：Hu, Yuanming and Wang, Baoyuan and Lin, Stephen: "*Fc4: Fully convolutional color constancy with confidence-weighted pooling*" CVPR (2017) [[pdf]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Hu_FC4_Fully_Convolutional_CVPR_2017_paper.pdf) [[code]](https://github.com/yuanming-hu/fc4)
++ 经典论文：Lo Y C, Chang C C, Chiu H C, et al. : "*Clcc: Contrastive learning for color constancy*" CVPR (2021) [[pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Lo_CLCC_Contrastive_Learning_for_Color_Constancy_CVPR_2021_paper.pdf) [[code]](https://openaccess.thecvf.com/content/CVPR2021/papers/Lo_CLCC_Contrastive_Learning_for_Color_Constancy_CVPR_2021_paper.pdf)
 
 
 
 可用数据集
 --------------
-各类颜色恒常性数据集大全，[点击链接](http://colorconstancy.com/evaluation/datasets/index.html)
+各类颜色恒常性数据集大全，[点击链接](http://colorconstancy.com/evaluation/datasets/index.html)，数据集处理可参考[点击链接](https://github.com/ChunxiaoLe/CCC/blob/main/color_constancy_data_process_all.py)
 
 | 数据集名称  | 数据集描述  | 数据集规模    |   作用   | 链接|
 | :-----------: | :--------: | :--------: | :--------: | :--------: |
