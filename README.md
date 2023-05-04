@@ -68,7 +68,7 @@
 + "*Zotero.*" 论文整理工具 [[link]](https://www.zotero.org/)
 + "*connectedpapers.*" 论文追溯工具 [[link]](https://www.connectedpapers.com/)
 + "*Paperswithcode.*" 论文代码查找工具 [[link]](https://paperswithcode.com/)
-+ "*Google colab.*" 免费线上GPU平台，如额外需要线下服务器资源，请联系我本人 [[link]](https://colab.research.google.com/notebooks/intro.ipynb)
++ "*Google colab.*" 免费线上GPU平台，如额外需要线下服务器资源，请联系负责管理GPU的同学 [[link]](https://colab.research.google.com/notebooks/intro.ipynb)
 
 ## 组会和学习时间安排
 + 每周组会安排：一次大组会。组会一般有老师参加，否则有博士师姐组织，主要分享上一周科研进度和论文阅读情况，准备PPT。组会一般在周一。
