@@ -20,6 +20,14 @@
 + 步骤：光照估计：估计出物体表面的光照颜色；颜色矫正，去除光照色偏影响。
 + 示意图如下所示：<img src="https://github.com/ChunxiaoLe/CCC/blob/main/%E9%A2%9C%E8%89%B2%E6%81%92%E5%B8%B8%E6%80%A7%E8%83%8C%E6%99%AF.png" width = "550" height = "300" alt="" align=center />
 
+## 实验室自研颜色恒常性代码库平台Anole[[link]](https://github.com/YuxiangTang/Anole)
++ 目的：提供规范化的图像处理框架；提供稳定、公平、可比较的平台；补充RAW图像处理缺口.
++ 主要模块：
+  + RAW图像处理：RAW图像在相机前后端的处理功能。
+  + 颜色恒常性模型：在同一套框架下提供流行和常用颜色恒常性模型。
+  + 模型训练和验证：规范化颜色恒常性训练、测试、评价流程。
+  + 实验环境配置：Hydra 和可视化技术生成报告来管理实验。
+
 ## 入门学习
 组内已投中顶会顶刊：
 + Yuxiang Tang, Xuejing Kang, Chunxiao Li, Zhaowen Lin, Anlong Ming*, Transfer Learning for Color Constancy via Statistic Perspective, AAAI 2022, 人工智能领域顶会. [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/download/20135/19894)  [[code]](https://github.com/YuxiangTang/TLCC)
@@ -56,13 +64,7 @@
 + "*深度学习框架PyTorch：入门与实践.*" GitHub [[link]](https://github.com/chenyuntc/pytorch-book)
 
 
-## 实验室自研颜色恒常性代码库平台Anole[[link]](https://github.com/YuxiangTang/Anole)
-+ 目的：提供规范化的图像处理框架；提供稳定、公平、可比较的平台；补充RAW图像处理缺口.
-+ 主要模块：
-  + RAW图像处理：RAW图像在相机前后端的处理功能。
-  + 颜色恒常性模型：在同一套框架下提供流行和常用颜色恒常性模型。
-  + 模型训练和验证：规范化颜色恒常性训练、测试、评价流程。
-  + 实验环境配置：Hydra 和可视化技术生成报告来管理实验。
+
 
 ## 其它工具
 + "*Zotero.*" 论文整理工具 [[link]](https://www.zotero.org/)
@@ -70,6 +72,4 @@
 + "*Paperswithcode.*" 论文代码查找工具 [[link]](https://paperswithcode.com/)
 + "*Google colab.*" 免费线上GPU平台，如额外需要线下服务器资源，请联系负责管理GPU的同学 [[link]](https://colab.research.google.com/notebooks/intro.ipynb)
 
-## 组会和学习时间安排
-+ 每周组会安排：一次大组会。组会一般有老师参加，否则有博士师姐组织，主要分享上一周科研进度和论文阅读情况，准备PPT。组会一般在周一。
-+ 组内同学学习时间要求：一般：周一至周五白天，9:30-11:30，2:30-5:30，8:00-10:00，无硬性时间要求，根据个人情况出勤
+
