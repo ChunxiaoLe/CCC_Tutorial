@@ -42,9 +42,6 @@ https://github.com/ChunxiaoLe/CCC_Tutorial/assets/58202703/4273e625-b831-4371-96
 
 
 
-https://github.com/ChunxiaoLe/CCC_Tutorial/assets/58202703/844c7a21-10d1-4e88-970f-77ec1a66ba60
-
-
 
 
 
